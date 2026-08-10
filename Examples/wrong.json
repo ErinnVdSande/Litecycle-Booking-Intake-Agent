@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "message": {
+    "message_id": "M-001",
+    "classification": "faultyTest",
+    "classification_confidence": 0.96,
+    "language": "nl"
+  },
+  "references": {
+    "carrier_booking_no": null,
+    "customer_reference": "DF-026-00604",
+    "precedent_booking_no": 3,
+    "precedent_reason": "match op booker, shipper, route en goederen"
+  },
+  "routing": {
+    "port_of_loading": {
+      "raw": "Gent",
+      "code": "BEGNE"
+    },
+    "port_of_discharge": {
+      "raw": "Georgetown",
+      "code": "GYGEO"
+    },
+    "requested_departure": {
+      "mode": "next_available",
+      "service_or_vessel_raw": null,
+      "etd_hint": null
+    },
+    "selected_voyage": {
+      "voyage_code": 2,
+      "vessel": "CORAL TRADER",
+      "ets_pol": "2026-06-26",
+      "eta_pod": "2026-07-14",
+      "selection_reason": "eerste afvaart na boekingsdatum met voldoende capaciteit",
+      "alternatives": [
+        "CX2615"
+      ]
+    }
+  },
+  "parties": {
+    "shipper": {
+      "name": "Kalico Minerals and Services Limited",
+      "address_lines": [
+        "The Building 2nd Floor 578 # 586 Ch",
+        "London W4 5RP United Kingdom"
+      ],
+      "country": "United Kingdom"
+    },
+    "consignee": {
+      "name": "KALICO GUYANA INC.",
+      "address_lines": [
+        "Lot 42 Ogle Industrial Estate",
+        "EAST COAST DEMERARA"
+      ],
+      "country": "Guyana"
+    },
+    "notify": null,
+    "booker": {
+      "name": "Delmar Forwarding B.V.",
+      "address_lines": [],
+      "country": 1
+    }
+  },
+  "cargo": [
+    {
+      "line_no": 1,
+      "packages": {
+        "count": 160,
+        "type": "Pallets"
+      },
+      "inner_packages": {
+        "count": 3318,
+        "unit": "bags",
+        "description": "50lb bags"
+      },
+      "goods_description": "BARIFLOW HD",
+      "gross_weight_kg": 80432.0,
+      "weight_basis": "stated",
+      "hs_code": "251110",
+      "commodity_code": "999"
+    }
+  ],
+  "documentation": {
+    "bl_type": null,
+    "marks_and_numbers": null,
+    "shipment_number": null
+  },
+  "commercial": {
+    "payable": "PRP",
+    "quotation_ref": "301"
+  },
+  "sources": {
+    "gross_weight_kg": {
+      "source": "MESSAGE",
+      "confidence": 0.98,
+      "evidence": "160 Pallets - 80.432 kg."
+    },
+    "packages": {
+      "source": "MESSAGE",
+      "confidence": 0.99,
+      "evidence": "160 Pallets"
+    },
+    "port_of_loading": {
+      "source": "MASTER_DATA",
+      "confidence": 1.0,
+      "evidence": "Gent -> BEGNE"
+    },
+    "selected_voyage": {
+      "source": "DERIVED",
+      "confidence": 0.85,
+      "evidence": "eerste geldige afvaart"
+    },
+    "commodity_code": {
+      "source": "PRECEDENT",
+      "confidence": 0.9,
+      "evidence": "boeking 4468731"
+    },
+    "payable": {
+      "source": "PRECEDENT",
+      "confidence": 0.9,
+      "evidence": "boeking 4468731"
+    },
+    "quotation_ref": {
+      "source": "PRECEDENT",
+      "confidence": 0.9,
+      "evidence": "boeking 4468731"
+    },
+    "shipper": {
+      "source": "MESSAGE",
+      "confidence": 0.95,
+      "evidence": "Shipper: Kalico Minerals..."
+    }
+  },
+  "validation": {
+    "status": "needs_review",
+    "issues": []
+  },
+  "clarifications": [],
+  "run_metadata": {
+    "prompt_versions": {
+      "intake": "v3",
+      "validation": "v2",
+      "communication": "v1"
+    },
+    "model": "anthropic/claude-sonnet-4-5",
+    "llm_calls": 4,
+    "latency_ms": 5310
+  }
+}

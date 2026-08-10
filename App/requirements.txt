@@ -1,0 +1,13 @@
+# Core
+pydantic>=2.7,<3.0
+python-dotenv>=1.0
+
+# Storage
+tinydb>=4.8
+
+# Fuzzy matching (company names not covered by the relation table)
+rapidfuzz>=3.6
+
+# LLM intake agent
+langchain-core>=0.3
+langchain-openrouter>=0.1

@@ -1,0 +1,49 @@
+Van: p.moerman@delmarforwarding.example
+Aan: documentation@novamarline.example
+CC: bookingdesk@novamarline.example
+Datum: vrijdag 19 juni 2026 11:22
+Onderwerp: RE: Booking Confirmation CX SERVICE/CX2614 Booking no 4471902 //
+         Your reference DF-026-00604
+
+Goedemorgen,
+
+Onderstaand de BL-instructies voor boeking 4471902.
+
+Shipper:
+Kalico Minerals and Services Limited,
+Bldg 4, Riverside Park, 566 Riverside H
+LONDON,
+W4 5YE,
+UNITED KINGDOM
+Tel No.: 01223 400400, Reg No.: 700112, VAT No.: GB123456789
+
+Consignee:
+KALICO GUYANA INC.
+Lot 42 Ogle Industrial Estate
+East Coast Demerara
+Guyana
+
+Notify:
+Trident Logistics - GEO
+194 B Camp St.
+Georgetown, Guyana
+geo@tridentlog.example
++592-641-8955
+
+Marks and numbers:
+KALICO GUYANA INC.
+Lot 42 Ogle Industrial Estate
+East Coast Demerara
+Guyana
+
+Description:
+158 pallets BARIFLOW HD, 50 LB BAG - 79426,60 KG
+HS Code: 2511.10
+
+Shipment number: 5692335
+
+Type of B/L: express
+
+Met vriendelijke groet / Kind regards,
+Pieter Moerman
+Delmar Forwarding B.V.

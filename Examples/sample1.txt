@@ -1,0 +1,38 @@
+Van: p.moerman@delmarforwarding.example
+Aan: bookingdesk@novamarline.example
+CC: ops@delmarforwarding.example
+Datum: woensdag 17 juni 2026 08:41
+Onderwerp: Boeking Gent - Georgetown / ref DF-026-00604
+
+Goedemorgen,
+
+Zouden jullie voor ons het volgende in willen boeken voor eerstvolgende
+beschikbare afvaart?
+
+160 Pallets - 80.432 kg.
+3318 x 50lb bags BARIFLOW HD
+120x80x110 cm elk
+HS-Code: 2511.1000
+
+POL: Gent
+POD: Georgetown
+
+Shipper:
+Kalico Minerals and Services Limited
+The Building 2nd Floor 578 # 586 Ch,
+London W4 5RP United Kingdom
+
+Consignee:
+KALICO GUYANA INC.
+Lot 42 Ogle Industrial Estate
+EAST COAST DEMERARA
+GUYANA
+
+DF Ref.: DF-026-00604
+
+Met vriendelijke groet / Kind regards,
+
+Pieter Moerman
+Delmar Forwarding B.V.
+Havenstraat 14, 4790 AB Willemsdorp, The Netherlands
+www.delmarforwarding.example

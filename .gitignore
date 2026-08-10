@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Secrets — never commit these
+.env
+App/.env
+Notebook/.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pipeline output (regenerated on each run)
+outputs/
+
+# Node (if BookingConsole.jsx ever gets a build step)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
